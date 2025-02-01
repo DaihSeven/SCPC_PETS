@@ -1,12 +1,12 @@
-# SCPC_PETS
+# SCPC_PETS 🐾
 
 Mini-projeto do M3 de Banco de Dados do curso de FullStack do PdA; 
 
 
-# Sistema de Cadastro para a Castração de Pets
+# Sistema de Cadastro para a Castração de Pets 🐾
 Usei como inspiração o projeto em início, de castramento de animais que está sendo realizado pela prefeitura da minha cidade com parceria com ONGs de proteção animal e veterinários da região.
 
-## Objetivos do Projeto
+## Objetivos do Projeto 🎯
 
 - **Resolver Problemas Relacionados ao Bem-Estar Animal:** Focar na melhoria das condições de vida de cães e gatos em situação de rua.
 - **Desenvolver um Diagrama Conceitual do Sistema:** Criar uma representação visual das interações entre tutores de animais e serviços de castração.
@@ -14,32 +14,32 @@ Usei como inspiração o projeto em início, de castramento de animais que está
 - **Implementar um Programa de Castração:** Colaborar com ONGs e veterinários locais para oferecer serviços de castração gratuitos ou a preços reduzidos.
 - **Educar a Comunidade:** Promover campanhas de conscientização sobre a importância da castração e do cuidado responsável com os animais de estimação.
 
-## Problematização
+## Problematização 🐕
 
 A situação dos animais em situação de rua é alarmante e exige uma abordagem multifacetada. Muitas vezes, esses animais são vítimas de envenenamento e outras formas de crueldade. A falta de recursos para castração entre os tutores e as ONGs contribui para o aumento da população animal desamparada. Portanto, um dos principais objetivos é desenvolver um sistema que facilite o acesso à castração para animais em situação de rua, aqueles sob a tutela de ONGs e os que já possuem lares, mas cujos tutores não têm condições financeiras para arcar com o procedimento.
 
-## Solução
+## Solução 📚
 
-Um programa de castração abrangente atenderá animais abandonados, aqueles sob a tutela de ONGs e os que já têm lares, mas cujos tutores não podem arcar com os custos. Ao oferecer serviços gratuitos ou a preços reduzidos, garantimos a esterilização de um número significativo de animais, reduzindo o sofrimento e controlando a população. 
+Um programa de castração abrangente atenderá animais abandonados, aqueles sob a tutela de ONGs e os que já têm lares, mas cujos tutores não podem arcar com os custos. Ao oferecer serviços gratuítos ou a preços reduzidos, garantimos a esterilização de um número significativo de animais, reduzindo o sofrimento e controlando a população. 
 
 A castração é uma medida essencial que promove o bem-estar animal. Além de prevenir ninhadas indesejadas, a cirurgia traz benefícios à saúde, como a redução do risco de doenças reprodutivas e comportamentais. Animais castrados geralmente têm uma vida mais longa e saudável, resultando em menos gastos com cuidados veterinários.
 
 Para o sucesso do programa, é crucial promover campanhas educativas sobre a importância da castração e do cuidado responsável. Essas iniciativas informarão os tutores sobre os benefícios da castração e incentivarão a adoção responsável. Com a colaboração entre ONGs, veterinários e a comunidade, podemos criar um ambiente mais seguro para os animais e reduzir significativamente o abandono.
 
-## Requisitos Especificados
+## Requisitos Especificados 📝
 
 - Validação de idade do tutor (maior de 18 anos);
 - Comprovação de residência;
 - Verificação da idade do animal (3 meses a 10 anos);
 - Confirmação de vacinação contra raiva.
 
-## Relacionamentos
+## Relacionamentos 📝
 
 - **Tutor** emite **TermoEncaminhamento**;
 - **Animal** está vinculado ao **TermoEncaminhamento**;
 - **TermoEncaminhamento** gera **Agendamento**.
 
-### Regras de Negócio
+### Regras de Negócio 📝
 
 - Validação automática de idade do tutor;
 - Verificação de documentação completa;
@@ -74,7 +74,7 @@ Para o sucesso do programa, é crucial promover campanhas educativas sobre a imp
    - Executado por um Veterinário;
    - Realizado em um Animal.
 
-## Modelos
+## Modelos 🚀
 
 ### Diagrama Conceitual
 É uma representação abstrata que descreve os elementos e as interações de um sistema, focando nas necessidades do usuário e nas regras de negócio.
@@ -85,7 +85,7 @@ Para o sucesso do programa, é crucial promover campanhas educativas sobre a imp
 ![Diagrama ER](Modelo_ER.png)
 
 
-## Estrutura do Banco de Dados
+## Estrutura do Banco de Dados 📊
 ## Tabela MySQL
 Abaixo está a estrutura do banco de dados para o projeto SCPC_PETS:
 

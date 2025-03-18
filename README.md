@@ -1,6 +1,17 @@
 # SCPC_PETS 🐾
 
-Mini-projeto do M3 de Banco de Dados do curso de FullStack do PdA; 
+Mini-projeto do M3 de Banco de Dados do curso de FullStack do PdA;
+
+## Estrutura📑
+
+├── Modelo_Conceitual.png
+
+├── Modelo_ER.png
+
+├── README.md
+
+└── mp_scpc_pets.sql
+
 
 
 # Sistema de Cadastro para a Castração de Pets 🐾
